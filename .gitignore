@@ -1,0 +1,42 @@
+# --- OS / Editor junk ---
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+.vscode/
+.idea/
+*.pem
+
+# --- Env files ---
+.env
+.env.*
+!.env.example
+
+# --- Node / builds (server + client) ---
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# --- Vite ---
+client/dist/
+client/.vite/
+
+# --- Server specific ---
+server/uploads/
+server/logs/
+server/dist/
+server/coverage/
+
+# --- Client specific ---
+client/node_modules/
+client/build/
+client/coverage/
+
+# --- Optional: lockfiles (if you want only one manager) ---
+# If using npm everywhere, keep package-lock.json tracked.
+# If NOT, ignore others:
+# yarn.lock
+# pnpm-lock.yaml
